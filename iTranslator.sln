@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTranslator", "iTranslator\iTranslator.csproj", "{2182B7A2-77AB-4615-A164-581B29D08B8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTranslator.iOS", "iTranslator\iTranslator.iOS.csproj", "{2182B7A2-77AB-4615-A164-581B29D08B8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{94D12A9A-0B03-4DB4-B09C-C2D5A88BEE51}"
 EndProject

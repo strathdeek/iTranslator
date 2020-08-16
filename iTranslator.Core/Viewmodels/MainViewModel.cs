@@ -20,8 +20,9 @@ namespace iTranslator.Viewmodels
 
         private const string translationFilePath = "data.xml";
 
-        private string mostRecentSuccessfulTranslation;
-        private List<TranslationViewItem> translationBuffer;
+        // The term and results buffered for predictive search
+        public string mostRecentSuccessfulTranslation;
+        public List<TranslationViewItem> translationBuffer;
 
         public event EventHandler<bool> UpdateUI;
 
