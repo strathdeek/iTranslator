@@ -16,6 +16,7 @@
 	--abi=x86_64 \
 	'\"--symbollist=/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/mtouch-symbols.list\"' \
 	--dsym=no \
+	-r=/Users/kevin/Projects/iTranslator/iTranslator.Core/bin/Debug/iTranslator.Core.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll \
 	-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
@@ -172,4 +173,5 @@
 	-r=/Users/kevin/.nuget/packages/mvvmlightlibs/5.4.1.1/lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.dll \
 	-r=/Users/kevin/.nuget/packages/mvvmlightlibs/5.4.1.1/lib/xamarin.ios10/GalaSoft.MvvmLight.dll \
 	-r=/Users/kevin/.nuget/packages/xamarin.essentials/1.5.3.2/lib/xamarinios10/Xamarin.Essentials.dll \
+	-r=/Users/kevin/Projects/iTranslator/iTranslator.Core/bin/Debug/iTranslator.Core.dll \
 	'@/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/response-file.rsp' \

@@ -48,8 +48,9 @@ namespace iTranslator.Viewmodels
         public RelayCommand SubmitCommand => new RelayCommand( async () =>
         {
             Translations.Clear();
-            if (mostRecentSuccessfulTranslation.Equals(SearchTerm) ||
-                await SearchForTranslationAsync(SearchTerm))
+            if (!string.IsNullOrEmpty(SearchTerm) &&
+                (mostRecentSuccessfulTranslation.Equals(SearchTerm) ||
+                await SearchForTranslationAsync(SearchTerm)))
             {
                 SearchTermCulture = (await translationService.GetCultureForWord(SearchTerm)).Name();
                 foreach (var translation in translationBuffer)

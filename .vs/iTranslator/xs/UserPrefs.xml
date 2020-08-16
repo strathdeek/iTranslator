@@ -1,19 +1,30 @@
 ﻿<Properties StartupConfiguration="{2182B7A2-77AB-4615-A164-581B29D08B8A}|Default">
-  <MonoDevelop.Ide.ItemProperties.Test FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iTranslator/Viewmodels/MainViewModel.cs">
+  <MonoDevelop.Ide.ItemProperties.Test FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iTranslator/Main.cs">
     <Files>
-      <File FileName="Test/Test.cs" Line="1" Column="1" />
-      <File FileName="Test/ViewModels/MainViewModelTests.cs" Line="1" Column="1" />
-      <File FileName="iTranslator/Viewmodels/MainViewModel.cs" Line="1" Column="1" />
+      <File FileName="iTranslator.Core/Viewmodels/MainViewModel.cs" Line="31" Column="65" />
+      <File FileName="iTranslator.Core/Services/Interfaces/IStyleService.cs" Line="7" Column="28" />
+      <File FileName="iTranslator.Core/Services/TranslationService.cs" Line="151" Column="13" />
+      <File FileName="iTranslator.Core/Services/Interfaces/IFileStreamService.cs" Line="8" Column="21" />
+      <File FileName="iTranslator/Services/FileStreamService.cs" Line="7" Column="47" />
+      <File FileName="iTranslator/Main.cs" Line="15" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="iTranslator" expanded="True">
             <Node name="iTranslator" expanded="True">
-              <Node name="Viewmodels" expanded="True">
-                <Node name="MainViewModel.cs" selected="True" />
+              <Node name="Main.cs" selected="True" />
+            </Node>
+            <Node name="iTranslator.Core" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Interfaces" expanded="True" />
               </Node>
+              <Node name="Utility" expanded="True" />
+              <Node name="ViewItems" expanded="True" />
+              <Node name="Viewmodels" expanded="True" />
             </Node>
             <Node name="Test" expanded="True">
               <Node name="ViewModels" expanded="True" />
@@ -24,10 +35,13 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>iTranslator/iTranslator.iOS.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.iTranslator PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.403B1144-18A1-48F4-8C9C-EC68C3EBADE2" />
+  <MonoDevelop.Ide.ItemProperties.iTranslator PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E19D30F3-EFBB-460E-8557-882E17EF8A23" />
 </Properties>

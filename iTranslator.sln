@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTranslator", "iTranslator\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{94D12A9A-0B03-4DB4-B09C-C2D5A88BEE51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTranslator.Core", "iTranslator.Core\iTranslator.Core.csproj", "{D42CE58F-0111-40D2-B7BC-2E176DC6DA07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -29,5 +31,13 @@ Global
 		{94D12A9A-0B03-4DB4-B09C-C2D5A88BEE51}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{94D12A9A-0B03-4DB4-B09C-C2D5A88BEE51}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{94D12A9A-0B03-4DB4-B09C-C2D5A88BEE51}.Release|iPhone.Build.0 = Release|Any CPU
+		{D42CE58F-0111-40D2-B7BC-2E176DC6DA07}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D42CE58F-0111-40D2-B7BC-2E176DC6DA07}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{D42CE58F-0111-40D2-B7BC-2E176DC6DA07}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{D42CE58F-0111-40D2-B7BC-2E176DC6DA07}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{D42CE58F-0111-40D2-B7BC-2E176DC6DA07}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{D42CE58F-0111-40D2-B7BC-2E176DC6DA07}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{D42CE58F-0111-40D2-B7BC-2E176DC6DA07}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{D42CE58F-0111-40D2-B7BC-2E176DC6DA07}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

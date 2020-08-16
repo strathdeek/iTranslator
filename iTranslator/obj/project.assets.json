@@ -45,6 +45,15 @@
         "runtime": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
+      },
+      "iTranslator.Core/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/iTranslator.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iTranslator.Core.dll": {}
+        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
@@ -90,6 +99,15 @@
         },
         "runtime": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "iTranslator.Core/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/iTranslator.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iTranslator.Core.dll": {}
         }
       }
     },
@@ -137,6 +155,15 @@
         "runtime": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
+      },
+      "iTranslator.Core/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/iTranslator.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iTranslator.Core.dll": {}
+        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
@@ -182,6 +209,15 @@
         },
         "runtime": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "iTranslator.Core/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/iTranslator.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iTranslator.Core.dll": {}
         }
       }
     }
@@ -383,12 +419,18 @@
         "xamarin.essentials.1.5.3.2.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
+    },
+    "iTranslator.Core/1.0.0": {
+      "type": "project",
+      "path": "../iTranslator.Core/iTranslator.Core.csproj",
+      "msbuildProject": "../iTranslator.Core/iTranslator.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "MvvmLight >= 5.4.1.1",
-      "Xamarin.Essentials >= 1.5.3.2"
+      "Xamarin.Essentials >= 1.5.3.2",
+      "iTranslator.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -416,7 +458,11 @@
       },
       "frameworks": {
         "xamarinios10": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/kevin/Projects/iTranslator/iTranslator.Core/iTranslator.Core.csproj": {
+              "projectPath": "/Users/kevin/Projects/iTranslator/iTranslator.Core/iTranslator.Core.csproj"
+            }
+          }
         }
       }
     },

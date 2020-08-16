@@ -119,18 +119,12 @@
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Resources\" />
-        <Folder Include="Viewmodels\" />
-        <Folder Include="ViewItems\" />
         <Folder Include="Views\" />
         <Folder Include="Views\ViewCells\" />
-        <Folder Include="Utility\" />
-        <Folder Include="Utility\Enums\" />
-        <Folder Include="Utility\Extensions\" />
         <Folder Include="Styles\" />
+        <Folder Include="Views\MainPage\" />
         <Folder Include="Services\" />
         <Folder Include="Services\Interfaces\" />
-        <Folder Include="Utility\Data\" />
-        <Folder Include="Views\MainPage\" />
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -144,33 +138,30 @@
         <Compile Include="Main.cs" />
         <Compile Include="AppDelegate.cs" />
         <Compile Include="SceneDelegate.cs" />
-        <Compile Include="Viewmodels\MainViewModel.cs" />
-        <Compile Include="ViewItems\TranslationViewItem.cs" />
         <Compile Include="Views\ViewCells\TranslationViewCell.cs" />
         <Compile Include="Views\ViewCells\TranslationViewCell.designer.cs">
           <DependentUpon>TranslationViewCell.cs</DependentUpon>
         </Compile>
-        <Compile Include="Utility\Enums\Culture.cs" />
-        <Compile Include="Utility\Enums\TranslationType.cs" />
-        <Compile Include="Utility\Extensions\CultureExtensionMethods.cs" />
-        <Compile Include="Utility\Extensions\TranslationTypeExtensionMethods.cs" />
         <Compile Include="Styles\Styles.cs" />
-        <Compile Include="Services\Interfaces\IStyleService.cs" />
-        <Compile Include="Services\StyleService.cs" />
         <Compile Include="Styles\Style.cs" />
-        <Compile Include="Services\Interfaces\ITranslationService.cs" />
-        <Compile Include="Services\TranslationService.cs" />
-        <Compile Include="Utility\Data\Translations.cs" />
-        <Compile Include="Utility\Data\TranslationNode.cs" />
         <Compile Include="Views\MainPage\ViewController.cs" />
         <Compile Include="Views\MainPage\ViewController.designer.cs">
           <DependentUpon>ViewController.cs</DependentUpon>
         </Compile>
+        <Compile Include="Services\Interfaces\IStyleService.cs" />
+        <Compile Include="Services\StyleService.cs" />
+        <Compile Include="Services\FileStreamService.cs" />
     </ItemGroup>
     <ItemGroup>
       <BundleResource Include="Resources\data.xml">
         <LogicalName>data.xml</LogicalName>
       </BundleResource>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\iTranslator.Core\iTranslator.Core.csproj">
+        <Project>{D42CE58F-0111-40D2-B7BC-2E176DC6DA07}</Project>
+        <Name>iTranslator.Core</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

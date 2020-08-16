@@ -1,4 +1,5 @@
 ﻿using GalaSoft.MvvmLight.Ioc;
+using iTranslator.Core.Services.Interfaces;
 using iTranslator.Services;
 using iTranslator.Services.Interfaces;
 using UIKit;
@@ -12,6 +13,7 @@ namespace iTranslator
         {
             SimpleIoc.Default.Register<IStyleService, StyleService>();
             SimpleIoc.Default.Register<ITranslationService, TranslationService>();
+            SimpleIoc.Default.Register<IFileStreamService, FileStreamService>();
 
             Styles.RegisterStyles();
             // if you want to use a different Application Delegate class from "AppDelegate"

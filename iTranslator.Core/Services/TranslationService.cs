@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using GalaSoft.MvvmLight.Ioc;
+using iTranslator.Core.Services.Interfaces;
 using iTranslator.Enums;
 using iTranslator.Services.Interfaces;
 using iTranslator.Utility.Data;
@@ -148,11 +150,11 @@ namespace iTranslator.Services
             initializing = true;
             XmlSerializer serializer = new XmlSerializer(typeof(Translations));
 
-            StreamReader reader = new StreamReader(path);
+            var reader = SimpleIoc.Default.GetInstance<IFileStreamService>().GetStreamReaderForFile(path);
             translations = (Translations)serializer.Deserialize(reader);
+            reader.Dispose();
 
             await GenerateGraph();
-            reader.Close();
             isInitialized = true;
 
         }

@@ -13,9 +13,11 @@
 /Users/kevin/Projects/iTranslator/iTranslator/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.Platform.dll
 /Users/kevin/Projects/iTranslator/iTranslator/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.dll
 /Users/kevin/Projects/iTranslator/iTranslator/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.pdb
-/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/ipad (7th generation)-13.6/ibtool/_BundleResourceWithLogicalName.items
-/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/ipad (7th generation)-13.6/actool/_PartialAppManifest.items
-/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/ipad (7th generation)-13.6/actool/_BundleResourceWithLogicalName.items
-/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/ipad (7th generation)-13.6/coremlc/_PartialAppManifest.items
-/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/ipad (7th generation)-13.6/coremlc/_BundleResourceWithLogicalName.items
-/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/ipad (7th generation)-13.6/optimized/
+/Users/kevin/Projects/iTranslator/iTranslator/bin/iPhoneSimulator/Debug/iTranslator.Core.dll
+/Users/kevin/Projects/iTranslator/iTranslator/bin/iPhoneSimulator/Debug/iTranslator.Core.pdb
+/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/ibtool/_BundleResourceWithLogicalName.items
+/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/actool/_PartialAppManifest.items
+/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/actool/_BundleResourceWithLogicalName.items
+/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/coremlc/_PartialAppManifest.items
+/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/coremlc/_BundleResourceWithLogicalName.items
+/Users/kevin/Projects/iTranslator/iTranslator/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.6/optimized/

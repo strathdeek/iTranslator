@@ -4,6 +4,31 @@
     "/Users/kevin/Projects/iTranslator/iTranslator/iTranslator.csproj": {}
   },
   "projects": {
+    "/Users/kevin/Projects/iTranslator/iTranslator.Core/iTranslator.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "/Users/kevin/Projects/iTranslator/iTranslator.Core/iTranslator.Core.csproj",
+        "projectName": "iTranslator.Core",
+        "projectPath": "/Users/kevin/Projects/iTranslator/iTranslator.Core/iTranslator.Core.csproj",
+        "packagesPath": "/Users/kevin/.nuget/packages/",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "/Users/kevin/.config/NuGet/NuGet.Config"
+        ],
+        "sources": {
+          "/Users/kevin/Downloads": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "portable45-net45+win8+wpa81": {
+            "projectReferences": {}
+          }
+        },
+        "packagesConfigPath": "/Users/kevin/Projects/iTranslator/iTranslator.Core/packages.config"
+      },
+      "frameworks": {
+        "portable45-net45+win8+wpa81": {}
+      }
+    },
     "/Users/kevin/Projects/iTranslator/iTranslator/iTranslator.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +51,11 @@
         },
         "frameworks": {
           "xamarinios10": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/kevin/Projects/iTranslator/iTranslator.Core/iTranslator.Core.csproj": {
+                "projectPath": "/Users/kevin/Projects/iTranslator/iTranslator.Core/iTranslator.Core.csproj"
+              }
+            }
           }
         }
       },
