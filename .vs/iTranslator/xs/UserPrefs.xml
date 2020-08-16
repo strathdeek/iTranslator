@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{2182B7A2-77AB-4615-A164-581B29D08B8A}|Default">
+  <MonoDevelop.Ide.ItemProperties.Test FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iTranslator/Viewmodels/MainViewModel.cs">
+    <Files>
+      <File FileName="Test/Test.cs" Line="1" Column="1" />
+      <File FileName="Test/ViewModels/MainViewModelTests.cs" Line="1" Column="1" />
+      <File FileName="iTranslator/Viewmodels/MainViewModel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="iTranslator" expanded="True">
+            <Node name="iTranslator" expanded="True">
+              <Node name="Viewmodels" expanded="True">
+                <Node name="MainViewModel.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Test" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.iTranslator PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.403B1144-18A1-48F4-8C9C-EC68C3EBADE2" />
+</Properties>

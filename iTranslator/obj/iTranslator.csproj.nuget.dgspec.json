@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kevin/Projects/iTranslator/iTranslator/iTranslator.csproj": {}
+  },
+  "projects": {
+    "/Users/kevin/Projects/iTranslator/iTranslator/iTranslator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kevin/Projects/iTranslator/iTranslator/iTranslator.csproj",
+        "projectName": "iTranslator",
+        "projectPath": "/Users/kevin/Projects/iTranslator/iTranslator/iTranslator.csproj",
+        "packagesPath": "/Users/kevin/.nuget/packages/",
+        "outputPath": "/Users/kevin/Projects/iTranslator/iTranslator/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/kevin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "/Users/kevin/Downloads": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "MvvmLight": {
+              "target": "Package",
+              "version": "[5.4.1.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

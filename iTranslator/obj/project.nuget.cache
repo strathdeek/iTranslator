@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "E5bfu5Jtt7GYFXk632R1nh7x5vsIYgUL97bCNQrsbrGlcgYrvQfeUjYGrz9nByWgz43kbaz8fRsaIbsdQW2iyw==",
+  "success": true,
+  "projectFilePath": "/Users/kevin/Projects/iTranslator/iTranslator/iTranslator.csproj",
+  "expectedPackageFiles": [
+    "/Users/kevin/.nuget/packages/commonservicelocator/2.0.2/commonservicelocator.2.0.2.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/mvvmlight/5.4.1.1/mvvmlight.5.4.1.1.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/mvvmlightlibs/5.4.1.1/mvvmlightlibs.5.4.1.1.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}
