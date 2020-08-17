@@ -1,20 +1,11 @@
 ﻿<Properties StartupConfiguration="{2182B7A2-77AB-4615-A164-581B29D08B8A}|Default">
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="iTranslator.Core/Viewmodels/MainViewModel.cs" Line="24" Column="15" />
-      <File FileName="iTranslator/Main.cs" Line="1" Column="1" />
-      <File FileName="iTranslator/AppDelegate.cs" Line="13" Column="29" />
-      <File FileName="iTranslator/Views/MainPage/ViewController.cs" Line="1" Column="1" />
-      <File FileName="iTranslator/Info.plist" />
-    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="iTranslator" expanded="True">
-            <Node name="iTranslator.iOS" expanded="True">
-              <Node name="Media.xcassets" selected="True" />
-            </Node>
+            <Node name="iTranslator.Core" expanded="True" />
           </Node>
         </State>
       </Pad>
