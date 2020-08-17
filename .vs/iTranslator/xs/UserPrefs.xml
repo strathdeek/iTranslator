@@ -1,54 +1,19 @@
-﻿<Properties StartupConfiguration="{94D12A9A-0B03-4DB4-B09C-C2D5A88BEE51}|Unit Tests">
+﻿<Properties StartupConfiguration="{2182B7A2-77AB-4615-A164-581B29D08B8A}|Default">
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Services/TranslationServiceTests.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Test/Test.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="iTranslator.Core/Viewmodels/MainViewModel.cs" Line="24" Column="15" NotebookId="1" />
-      <File FileName="iTranslator/Main.cs" NotebookId="1" />
-      <File FileName="Test/ViewModels/MainViewModelTests.cs" Line="26" Column="1" NotebookId="1" />
-      <File FileName="iTranslator.Core/Services/TranslationService.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Test/Services/TranslationServiceTests.cs" Line="31" Column="23" NotebookId="1" />
+      <File FileName="iTranslator.Core/Viewmodels/MainViewModel.cs" Line="24" Column="15" />
+      <File FileName="iTranslator/Main.cs" Line="1" Column="1" />
+      <File FileName="iTranslator/AppDelegate.cs" Line="13" Column="29" />
+      <File FileName="iTranslator/Views/MainPage/ViewController.cs" Line="1" Column="1" />
+      <File FileName="iTranslator/Info.plist" />
     </Files>
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="570" Y="259" Width="640" Height="841">
-        <Files>
-          <File FileName="Test/Data/data.xml" Line="1" Column="1" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="iTranslator" expanded="True">
-            <Node name="iTranslator.Core" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="Interfaces" expanded="True" />
-              </Node>
-              <Node name="Utility" expanded="True" />
-              <Node name="ViewItems" expanded="True" />
-              <Node name="Viewmodels" expanded="True" />
-            </Node>
-            <Node name="Test" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="TranslationServiceTests.cs" selected="True" />
-              </Node>
-              <Node name="ViewModels" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="iTranslator" expanded="True">
-            <Node name="Test" expanded="True">
-              <Node name="Test.ViewModels" expanded="True">
-                <Node name="MainViewModelTests" expanded="True">
-                  <Node name="CheckSynonymBasicGermanWord" selected="True" />
-                </Node>
-              </Node>
+            <Node name="iTranslator.iOS" expanded="True">
+              <Node name="Media.xcassets" selected="True" />
             </Node>
           </Node>
         </State>
@@ -57,12 +22,11 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.iTranslator.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E19D30F3-EFBB-460E-8557-882E17EF8A23" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <DisabledProjects>
-    <String>iTranslator/iTranslator.iOS.csproj</String>
-  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/kevin/Projects/iTranslator/Test/Services/TranslationServiceTests.cs" relfile="Test/Services/TranslationServiceTests.cs" line="147" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

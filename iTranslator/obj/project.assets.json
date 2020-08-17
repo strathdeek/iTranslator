@@ -439,9 +439,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kevin/Projects/iTranslator/iTranslator/iTranslator.csproj",
+      "projectUniqueName": "/Users/kevin/Projects/iTranslator/iTranslator/iTranslator.iOS.csproj",
       "projectName": "iTranslator",
-      "projectPath": "/Users/kevin/Projects/iTranslator/iTranslator/iTranslator.csproj",
+      "projectPath": "/Users/kevin/Projects/iTranslator/iTranslator/iTranslator.iOS.csproj",
       "packagesPath": "/Users/kevin/.nuget/packages/",
       "outputPath": "/Users/kevin/Projects/iTranslator/iTranslator/obj/",
       "projectStyle": "PackageReference",

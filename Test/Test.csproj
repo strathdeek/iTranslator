@@ -60,7 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Test.cs" />
     <Compile Include="ViewModels\MainViewModelTests.cs" />
     <Compile Include="Services\TestFileStreamService.cs" />
     <Compile Include="Services\TranslationServiceTests.cs" />
